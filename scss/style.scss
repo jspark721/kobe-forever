@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Elsie|Gravitas+One|Prata&display=swap');
+
+$abril: 'Abril Fatface', cursive;
+$elsie: 'Elsie', cursive;
+$gravitas: 'Gravitas One', cursive;
+$prata: 'Prata', serif;
+
+$white: #FFFFFF;
+$black: #000000;
+$gray: #525252;
+$purple: #542583;
+$yellow: #FDB827;
+
+
+body {
+  margin: 0;
+  background-color: $black;
+  overflow-x: hidden;
+}
+
+.topbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.logo {
+  height: 50px;
+  margin-left: 1.5em;
+}
+
+.landing {
+  width: 100vw;
+  height: 100vh;
+  background: url('../img/kobe-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-title {
+  font-size: 10em;
+  color: rgba(0,0,0,0);
+  text-shadow:
+   -1px -1px 0 $white
+    1px -1px 0 $white
+    -1px 1px 0 $white
+     1px 1px 0 $white;
+  position: absolute;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: $gravitas;
+  letter-spacing: 30px;
+  transition: all .4s ease;
+}
+
+@supports (-webkit-text-stroke: 1px black) {
+  .landing-title {
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.landing-bg-kobe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url('../img/kobe-transparent.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 4;
+}

@@ -5,8 +5,9 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
     "gulp-sass": "^4.0.2",
-    "gulp": "^4.0.2"
+    "scrollmagic": "^2.0.7"
   },
   "devDependencies": {},
   "scripts": {
