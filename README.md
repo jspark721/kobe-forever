@@ -8,6 +8,6 @@ It’s really a strange feeling to know that a person you never met can make you
 
 I wanted to build and code something that pays tribute to the amazing life he has lead. Hope you guys enjoy.
 
-### 24 | 8 Kobe Bryant, we love you and thank you.
+### 8 | 24 Kobe Bryant, we love you and thank you. Never Forgotten
 
 ###### Rest in Peace Kobe Bryant
