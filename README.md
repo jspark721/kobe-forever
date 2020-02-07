@@ -1,4 +1,4 @@
-# Kobe Forever
+# Mamba Forever
 ### In Loving Memory of Kobe Bryant
 ##### August 23, 1978 - January 26, 2020
 
